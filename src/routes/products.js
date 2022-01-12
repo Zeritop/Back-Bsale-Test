@@ -4,6 +4,7 @@ const rutas = router.Router();
 
 const { getProducts, getCategory, getProductByCategory, getProductsByInput } = productCtrl
 
+//Rutas para la api
 rutas.get('/get-products', getProducts);
 
 rutas.get('/get-category', getCategory);
